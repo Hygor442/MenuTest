@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    
+    background: rgb(219,125,61);
+    background: linear-gradient(180deg, rgba(219,125,61,1) 0%, rgba(235,47,63,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-itens{
+    height: 90vh;
+    width: 80vw;
+    background: #fff;
+    border-radius: 20px;
+    border: 2px solid #121010c3;
+    display: flex;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+}
+/*Lado esquerdo/Logo*/
+.header-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-cont .circle{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    background: #F2A838;
+}
+
+.header-cont img{
+    width: 50%;
+}
+
+.header-cont h1{
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    margin-bottom: .5em;
+}
+
+.header-cont h2{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+/*Lado Direito/menu*/
+.main-cont h2{
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 10px;
+}
+
+.main-cont .content{
+    color: #fff;
+    margin: 0 1em;
+}
+
+.main-cont .card{
+    background: #F25A38;
+    padding: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.main-cont .prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont .card img{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.main-cont p{
+    font-size: 2em;
+}
+
+.main-cont .valor-prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cont span{
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+.main-cont .btn, .btn-concluir{
+    padding: 1em  3em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    background: #fff;
+    color: #EB2F3F;
+}
+
+.main-cont .btn:focus{
+    background: #EB2F3F;
+    color: #fff;
+    animation: button .4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes button{
+    0%{
+        transform: scale(.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.main-cont .btn-concluir{
+    background: #EB2F3F;
+    color: #fff;
+    width: 100%;
+    padding: .9em;
+    font-size: 1.5em;
+}
+
+.btn-concluir:focus{
+    color: #EB2F3F;
+    background: #fff;
+    border: 2px solid #010101;
+    font-weight: bolder;
+}
+
+/*NOTA FISCAL*/
+.nota{
+    width: 30vw;
+    height: 95vh;
+    overflow: hidden;
+    background: #ebc44dc8;
+    border-radius: 20px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid #F2A838;
+}
+
+.header-nota{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aprovado{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin: 1em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.aprovado img{
+    width: 50%;
+    border: 5px solid black;
+    background: green;
+    border-radius: 50%;
+    
+}
+
+.content-informacoes{
+    margin-top: 1.5em;
+    width: 90%;
+    height: 68%;
+}
+.infor_preco{
+    margin:0 2.5em;
+    display: flex;
+    justify-content: space-between;
+}
+.content-informacoes .infor{
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: space-around;
+}
+
+.infor-final{
+    background: #F2A838;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infor-final span{
+    font-size: 1.1em;
+    padding: .5em 0;
+}
+
+.infor-final .carac{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}

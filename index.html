@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <main>
+        <div class="container-itens">
+            <section class="container header-cont">
+                <div class="circle"><img src="assets/restaurant-store-svgrepo-com.svg" alt="logo"></div>
+                <h1>Lanchonete <i>Io Mangio</i> </h1>
+                <h2>O melhor lanche você encontra aqui!</h2>
+            </section>
+            <section class="container main-cont">
+                <h2>Menu</h2>
+                <div class="content">
+                    <div class="card">
+                        <div class="prod">
+                            <img src="assets/hamburger-svgrepo-com.svg" alt="hambuguer">
+                            <p>hambuguer</p>
+                        </div>
+                        <div class="valor-prod">
+                            <span>R$12,00</span>
+                            <button class="btn" value="Hambuguer">Adicionar</button> 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="prod">
+                            <img src="assets/fries-svgrepo-com.svg" alt="Fritas">
+                            <p>Batata Frita</p>
+                        </div>
+                        <div class="valor-prod">
+                            <span>R$10,00</span>
+                            <button class="btn" value="Batata-Frita">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="prod">
+                            <img src="assets/juice-svgrepo-com.svg" alt="refrigerante">
+                            <p>Refrigerante</p>
+                        </div>
+                        <div class="valor-prod">
+                            <span>R$14,00</span>
+                            <button class="btn" value="Refrigerante">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="prod">
+                            <img src="assets/cone-svgrepo-com.svg" alt="Soverte">
+                            <p>Soverte</p>
+                        </div>
+                        <div class="valor-prod">
+                            <span>R$5,00</span>
+                            <button class="btn" value="Soverte">Adicionar</button>
+                        </div>
+                    </div>
+                    <input type="button" value="Finalizar" class="btn-concluir">
+                </div>
+            </section>
+        </div>
+        <div class="container-final">
+            <div class="nota">
+                <div class="header-nota">
+                    <div class="aprovado">
+                        <img src="assets/approved-aproved-confirm-2-svgrepo-com.svg" alt="aprovado">
+                    </div>
+                    <h1>Pedido finalizado</h1>
+                    <h3>Tenha uma boa refeição!</h3>
+                </div>
+                <div class="content-informacoes">
+                    <div class="infor carac">
+                        <span>qtd</span>
+                        <span>Descrição</span>
+                        <span>Vl item(R$)</span>
+                    </div>
+                    <div class="infor-final">
+                        <div class="qtd carac">
+                            
+                        </div>
+                        <div class="descri carac">
+                            
+                        </div>
+                        <div class="valor carac">
+                            
+                        </div>
+                    </div>
+                    <div class="infor_preco">
+                        <p>Total:</p> <span class="total"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/*Tablet*/
+@media screen and (max-width: 768px) {
+  .container-itens{
+    height: 96vh;
+    width: 96vw;
+    overflow: hidden;
+    border: none;
+  }
+  .header-cont{
+    border-right: 2px solid #F25A38;;
+  }
+  .header-cont h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+  }
+  .header-cont h2{
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .header-cont .circle{
+    margin: .5em 0;
+    width: 70%;
+    height: 45%;
+    border: 2.5px solid black;
+  }
+  .header-cont img{
+    width: 65%;
+  }
+  .main-cont h2{
+    font-size: 3.5rem;
+  }
+  .main-cont .content{
+    margin: .5em;
+  }
+  .main-cont .card{
+    overflow: hidden;
+    width: 100%;
+    max-width: 960px;
+    padding: 1.4em;
+    margin-bottom: 0.25em;
+  }
+  .main-cont p{
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+  }
+  .main-cont span{
+    font-size: 1em;
+  }
+  .main-cont .card img{
+    margin-right: 0;
+  }
+  .main-cont .card .prod{
+    max-width: 25%;
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-cont .btn, .btn-concluir{
+    padding: .5em 1.5em;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+  .container-itens{
+    border: none;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    width: 100%;
+  }
+  .header-cont h1{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+  }
+  .header-cont h2{
+    font-size: 1em;
+    margin-top: 0;
+  }
+  .header-cont .circle{
+    margin: .5em 0;
+    width: 80px;
+    height: 80px;
+    border: 2.5px solid black;
+  }
+  .header-cont img{
+    width: 65%;
+  }
+  .main-cont h2{
+    font-size: 1.5em;
+    border-top: 2.5px solid #F25A38;
+    border-bottom: 2.5px solid #F25A38;
+  }
+  .main-cont .content{
+    margin: .5em;
+  }
+  .main-cont .card{
+    overflow: hidden;
+    width: 100%;
+    max-width: 960px;
+    padding: .5em;
+    margin-bottom: 0.25em;
+  }
+  .main-cont p{
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+  }
+  .main-cont span{
+    font-size: 1em;
+  }
+  .main-cont .card img{
+    margin-right: 0;
+  }
+  .main-cont .card .prod{
+    max-width: 25%;
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-cont .btn, .btn-concluir{
+    padding: .5em 1.5em;
+  }
+}
+ 
