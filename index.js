@@ -84,6 +84,8 @@ function finalizando(){
   numeroDeItens();
   });
 }
-
+let body = document.querySelector("body");
+let wid = body.clientWidth();
+alert(`a tela tem ${wid}px`);
 carrinho();
 finalizando();
