@@ -85,7 +85,7 @@ function finalizando(){
   });
 }
 let body = document.querySelector("body");
-let wid = body.clientWidth();
+let wid = body.clientWidth;
 alert(`a tela tem ${wid}px`);
 carrinho();
 finalizando();
